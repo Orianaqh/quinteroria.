@@ -6,14 +6,12 @@ import Jobsy from '../assets/images/Jobsy.png'
 import { useNavigate } from 'react-router-dom'
 // framer-motion
 import { motion } from 'framer-motion'
+import Layout from '../components/Layout'
 
 function Projects() {
   const navigate = useNavigate()
   return (
-    <motion.div
-    // initial={{ width: '100%' }}
-    animate={{ width: '100%' }}
-    exit={{ x: window.innerWidth }}>
+    <Layout>
       <div className='grid grid-flow-col auto-cols-max gap-5 mx-5 lg:mx-12'>
         <div 
           aria-label='1 fotos'
@@ -91,7 +89,7 @@ function Projects() {
           <p></p>
         </div>
       </div>
-    </motion.div>
+      </Layout>
   )
 }
 
