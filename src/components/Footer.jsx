@@ -13,15 +13,15 @@ function Footer() {
   };
   return (
     <div className='absolute
-    bottom-3 w-full flex justify-center items-start gap-[20px]'>
+    bottom-3 w-full flex justify-center items-start gap-[20px] font-body'>
 
     {/* COPYRIGHT IMG */}
       <img className='w-[5rem] pb-3' src={CopyR}/>
 
     {/* LOGOS SOCIAL MEDIA */}
     <div className='flex gap-2'>
-      <img onClick={toBehance} className='h-[1rem]' src={Logo1} alt='behance logo'/>
-      <img onClick={toGithub} className='w-[1rem]' src={Logo2} alt='github logo'/> 
+      <img onClick={toBehance} className='h-[1rem] cursor-pointer' src={Logo1} alt='behance logo'/>
+      <img onClick={toGithub} className='w-[1rem] cursor-pointer' src={Logo2} alt='github logo'/> 
     </div>
 
     {/* DATUM ORT */}

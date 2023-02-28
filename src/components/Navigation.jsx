@@ -1,12 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Navigation() {
+  const navigation = useNavigate()
+
   return (
-    <div className='w-full bg-black bg-opacity-70 flex-col flex justify-center items-center lg:pl-[60px]'>
+    <div className='w-full bg-opacity-70 flex-col flex justify-center items-center lg:pl-[60px]'>
     {/* MEIN NAME */}
       <p
+       onClick={()=> navigation('/')}
         aria-label='quinteroria'
-        className='text-beige text-2xl lg:text-4xl py-5'> quinter<span className='font-bold'>ori</span>a
+        className='text-beige text-2xl lg:text-4xl py-5 cursor-pointer font-body'> quinter<span className='font-bold'>ori</span>a
         <span className='text-orange-500'>.</span>
       </p>
     </div>

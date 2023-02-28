@@ -10,10 +10,11 @@ module.exports = {
         'blackBlack': '#000000'
       },
       fontFamily: {
-        'body': ['Martian Mono']
+        'body': ['Martian Mono'],
+        'jobsy': ['Jost'],
       },
       boxShadow: {
-        'inner2': 'inset 0 2px 4px 0 rgb(2 2 2 / 2)',
+        'inner2': 'inset 0 2px 4px 0 rgb(1 1 1 / 1)',
         'inner': 'inset 0 2px 4px 0 rgb(1 1 1 / 0.5)'
       },
     },
