@@ -1,23 +1,17 @@
-import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './components/Home'
-import Projects from './pages/Projects'
+import SmoothPages from './components/SmoothPages'
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
-import Jobsy from './pages/Jobsy'
+
 
 function App() {
 
   return (
-    <div className="min-h-screen">
-      <Navigation />
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='projects' element={<Projects/>}/>
-          <Route path='/projects/jobsy' element={<Jobsy/>}/>
-        </Routes>
-      <Footer />
-    </div>
+      <div className='bg-background min-h-screen relative'>
+        <Navigation />
+        <SmoothPages/>
+        <Footer />
+      </div>
   )
 }
 

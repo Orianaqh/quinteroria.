@@ -44,7 +44,6 @@
 
 body {
   overflow-x: hidden;
-  /* background-color: rgb(112, 112, 112); */
   background-image: url('../src/assets/images/street2.png');
   background-position-y: center;
   backdrop-filter: brightness(0.3) saturate(0);
