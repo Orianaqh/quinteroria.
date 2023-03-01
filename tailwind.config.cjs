@@ -7,7 +7,8 @@ module.exports = {
         'black': '#333334',
         'beige': '#f4eee2',
         'orange': '#df5729',
-        'blackBlack': '#000000'
+        'blackBlack': '#000000',
+        'green': '#84a98c',
       },
       fontFamily: {
         'body': ['Martian Mono'],

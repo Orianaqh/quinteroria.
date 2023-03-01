@@ -48,3 +48,11 @@ body {
   background-position-y: center;
   backdrop-filter: brightness(0.3) saturate(0);
 }
+
+.bgBlack{
+  background-color: rgba(15, 15, 15, 0.6);
+}
+
+.bgWhite{
+  background-color: rgb(255, 255, 255);
+}

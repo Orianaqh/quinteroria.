@@ -14,7 +14,7 @@ function Content() {
         <img className='relative w-[400px] md:w-[400px] lg:w-[600px] drop-shadow-2xl' src={Blumen}/>
 
         {/* TEXT ANIMATION */}
-        <h3 class="w-[250px] h-[50px] mt-[30px] font-semibold text-xs
+        <h3 className="w-[250px] h-[50px] mt-[30px] font-semibold text-xs
           md:mt-[50px] md:w-[300px] xl:w-[500px] md:text-[0.90rem] md:text-opacity-60
           xl:text-xl text-beige font-body">
           <Typical
