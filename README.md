@@ -19,5 +19,5 @@ ist meine Portfolio-Page.
 
 ![image](https://user-images.githubusercontent.com/92849517/222745501-88aa3455-a525-4250-9a82-d7e33225c690.png)
 
-[Neugerig? Click mich!]([https://www.google.com](https://quinteroria-lczy7sz2l-orianaqh.vercel.app/))
+[Neugierig?](https://quinteroria-lczy7sz2l-orianaqh.vercel.app/))
 
