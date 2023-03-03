@@ -3,7 +3,6 @@ import SmoothPages from './components/SmoothPages'
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 
-
 function App() {
 
   return (

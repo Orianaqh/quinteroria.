@@ -7,57 +7,56 @@ import { useNavigate } from 'react-router-dom'
 import Bitte from '../assets/images/Bitte2.jpg'
 
 // framer-motion
-import { motion } from 'framer-motion'
 import Layout from '../components/Layout'
 
 function Projects() {
   const navigate = useNavigate()
   return (
     <Layout>
-      <div className='grid grid-flow-col auto-cols-max mx-5 lg:mx-12 bgWhite p-5'>
-        <div 
-          aria-label='1 fotos'
-          className='row-span-1 col-span-1 saturate-0 hover:saturate-100 transition-all 
-          ease-in-out duration-1000'>
-          <img className='lg:w-[500px] object-cover h-[610px] ' src={Street3} alt='' />
-          <p></p>
+      <div className='w-full flex flex-col md:flex-row justify-center items-center'>
+
+      {/* COL 1 */}
+        <div className='w-[40%] md:w-[55.4%] xl:w-[21.28%] flex flex-col justify-center items-center'>
+          <div 
+            aria-label='1 fotos'
+            className='saturate-0 hover:saturate-100 transition-all 
+            ease-in-out duration-1000'>
+            <img className='lg:w-[500px] object-cover xl:h-[400px] 2xl:h-[534px]' src={Street3} alt='' />
+          </div>
+
+          <div 
+            aria-label='5 Bitte'
+            className='saturate-0 hover:saturate-100 transition-all 
+            ease-in-out duration-1000'>
+            <img
+              className='w-[500px]'
+              onClick={() => navigate('bitte')}
+              src={Bitte} alt='Bitte poster' />
+          </div>
         </div>
 
+        {/* COL 2 */}
+        <div className='w-[40%] lg:w-[35.3%] xl:w-[21.28%] flex flex-col justify-center items-center'>
         <div 
-          aria-label='2 Chor'
-          className='row-span-1 col-span-1 w-[250px] saturate-0 hover:saturate-100 transition-all 
-          ease-in-out duration-1000'>
-          <img
-            onClick={() => navigate('chor')}
-            src={SingMit} alt='' />
-          <p></p>
-        </div>
+            aria-label='4 Jobsy'
+            className='bg-black saturate-0 hover:saturate-100 transition-all 
+            ease-in-out duration-1000 flex justify-center items-center'>
+            <img
+              className='w-[410px]'
+              onClick={() => navigate('jobsy')}
+              src={Jobsy} alt='Jobsy website'/>
+          </div>
 
-        <div 
-          aria-label='5 Bitte'
-          className='row-span-3 col-span-3 w-[400px] saturate-0 hover:saturate-100 transition-all 
-          ease-in-out duration-1000'>
-          <img
-            className=''
-            onClick={() => navigate('bitte')}
-            src={Bitte} alt='Bitte poster' />
-        </div>
-
-            <div 
-              aria-label='3 fotos'
-              className='row-span-3 col-span-4 w-[700px] saturate-0 hover:saturate-100 transition-all 
-              ease-in-out duration-1000'>
-              <img src={Alt} alt='' />
-              <p></p>
-            </div>
-
-        <div 
-          aria-label='4 Jobsy'
-          className='row-span-3 col-span-1 hover:brightness-50 transition-all 
-          ease-in-out duration-1000'>
-          <img
-            onClick={() => navigate('jobsy')}
-            src={Jobsy} alt='Jobsy website'/>
+          <div 
+            aria-label='2 Chor'
+            className='saturate-0 hover:saturate-100 transition-all 
+            ease-in-out duration-1000'>
+            <img
+              className='w-[410px]'
+              onClick={() => navigate('chor')}
+              src={SingMit} alt='' />
+            <p></p>
+          </div>
         </div>
 
         <div 

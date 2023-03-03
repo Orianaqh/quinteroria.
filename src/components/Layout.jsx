@@ -1,16 +1,24 @@
 import React from 'react'
 // framer-motion
-import { motion } from 'framer-motion'
+import { motion, useIsPresent } from 'framer-motion'
 
-const animations = {
-  initial: {opacity:0, height:50},
-  animate: {opacity:1, x:0},
-  exit: {opacity:0, x: -100},
-}
+const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible
+};
+
 
 const Layout = ({children}) => {
+  const isPresent = useIsPresent();
   return (
-    <motion.div variants={animations} initial='initial' animate='animate' exit='exit'>
+    <motion.div
+    initial={{ scaleX: 0 }}
+        animate={{ scaleX: 1, transition: { duration: 0.8, ease: "circOut" } }}
+        exit={{ scaleX: 0, transition: { duration: 0.5, ease: "circIn" } }}
+        style={{ originX: isPresent ? 0 : 1 }}
+        className="privacy-screen">
       {children}
     </motion.div>
   )
