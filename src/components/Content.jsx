@@ -1,7 +1,8 @@
 import React from 'react'
-import Blumen from '../assets/images/blumenGerade2.png'
+import Blumen from '../assets/images/blumen2.png'
 import { useNavigate } from 'react-router-dom';
 import TypeIt from "typeit-react";
+import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
 
 function Content() {
   const navigate = useNavigate()
@@ -13,9 +14,9 @@ function Content() {
 
         {/* TEXT ANIMATION */}
         <h3 className="w-[250px] h-[50px] mt-[30px] font-semibold text-xs
-          md:mt-[50px] md:w-[300px] xl:w-[500px] md:text-[0.90rem] md:text-opacity-60
+          md:mt-[50px] md:w-[300px] xl:w-[530px] md:text-[0.90rem] md:text-opacity-60
           xl:text-xl text-beige font-body">
-          <TypeIt>Und jetzt, da du schon Blumen hast :) geht's weiter</TypeIt>
+          <TypeIt>Und jetzt, da du schon Blumen hast:) geht's weiter mit <span className='text-orange font-black'>	&darr;</span></TypeIt>
             
         </h3>
                   
@@ -23,8 +24,8 @@ function Content() {
         <div
           onClick={() => navigate('/projects')}
           aria-label='Projekte'
-          className='w-[200px] h-[40px] lg:w-[280px] lg:h-[50px] lg:mt-[30px] text-xs lg:text-lg flex justify-center items-start gap-2 bg-black bg-opacity-80 shadow-inner2 cursor-pointer
-          p-3 transition-all ease-in-out duration-[2000ms] hover:bg-beige hover:bg-opacity-50 hover:text-beige font-body'>
+          className='w-[200px] h-[40px] lg:w-[280px] lg:h-[50px] lg:mt-[30px] text-xs lg:text-lg flex justify-center items-start gap-2 bg-black bg-opacity-50 shadow-inner2 cursor-pointer
+          p-3 transition-all ease-in-out duration-[2000ms] hover:bg-beige hover:bg-opacity-50 hover:text-beige font-body hover:rounded-xl'>
           <p className=''>einige <span className='text-beige font-thin underline
           md:font-bold hover:text-orange transition-all 
           ease-in-out duration-900'>Projekte.</span>

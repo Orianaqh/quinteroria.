@@ -1,7 +1,6 @@
 import React from 'react'
 import Street3 from '../assets/images/street3.png'
 import SingMit from '../assets/images/singMit.jpg'
-import Alt from '../assets/images/altt.jpg'
 import Jobsy from '../assets/images/Jobsy.png'
 import { useNavigate } from 'react-router-dom'
 import Bitte from '../assets/images/Bitte2.jpg'
@@ -13,7 +12,7 @@ function Projects() {
   const navigate = useNavigate()
   return (
     <Layout>
-      <div className='w-full flex flex-col md:flex-row justify-center items-center'>
+      <div className='bgBlack w-full flex flex-col md:flex-row justify-center items-center'>
 
       {/* COL 1 */}
         <div className='w-[40%] md:w-[55.4%] xl:w-[21.28%] flex flex-col justify-center items-center'>

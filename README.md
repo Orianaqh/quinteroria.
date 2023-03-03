@@ -10,6 +10,7 @@ ist meine Portfolio-Page.
 - react-router-dom
 - framer-motion
 - typeit-react
+- react-player
 ...
 
 ---

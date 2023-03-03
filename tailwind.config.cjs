@@ -10,6 +10,7 @@ module.exports = {
         'blackBlack': '#000000',
         'green': '#84a98c',
         'rosa': '#e7a5be',
+        'rosaTwo': '#f89297'
       },
       fontFamily: {
         'body': ['Martian Mono'],

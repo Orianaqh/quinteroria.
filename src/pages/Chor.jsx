@@ -10,7 +10,7 @@ function Chor() {
   
   return (
     <Layout>
-      <div className='flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem] lg:mx-[30px]'>
+      <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem]'>
         
         {/* LEFTE SEITE */}
         <section className='flex flex-col xl:h-[500px] justify-center items-center lg:items-end'>
@@ -20,7 +20,7 @@ function Chor() {
             <img className='w-[50%] lg:w-[200px]' src={ChorL} alt="Cantares Chor"/>
           </div>
 
-          <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>is a modern, user-friendly that connects job seekers with potential employers. The website is built with the latest technologies, including MERN Stack and is designed to be accessible to all. Whether you're looking for a new job or looking to hire, Jobsy makes the process simple and straightforward.</p>
+          <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>Eines meiner Hobbies ist singen und das mache ich mega gerne. Der Chor "Cantares" ist ein interkultureller (deutsch-spanischer) Chor, der 2022 gegründet wurde. Für mich es ist ein perfekter Ort, um frei zu sein und Stress abzubauen (mit ebenfalls sehr netter Gesellschaft!). Dieser Text ist keine Einladung <strong className='opacity-60'>aber</strong> das Poster wurde mit musikalischen Kurven und freundlichen Farben entworfen, um allen zu sagen.. kommt, und <br></br><i className='font-bold'>Singt mit!</i></p>
         </section>
 
         {/* RECHTE SEITE */}

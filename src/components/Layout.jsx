@@ -16,8 +16,7 @@ const Layout = ({children}) => {
     <motion.div
     initial={{ scaleX: 0 }}
         animate={{ scaleX: 1, transition: { duration: 0.8, ease: "circOut" } }}
-        exit={{ scaleX: 0, transition: { duration: 0.5, ease: "circIn" } }}
-        style={{ originX: isPresent ? 0 : 1 }}
+        exit={{ scaleX: 2, transition: { duration: 0.3, ease: "circIn" } }}
         className="privacy-screen">
       {children}
     </motion.div>

@@ -1,8 +1,11 @@
 import React from 'react'
+import Error from '../assets/images/blumenDoppel.jpg'
 
 function NotFound() {
   return (
-    <div>NotFound</div>
+    <div>
+      <img src={Error}/>
+    </div>
   )
 }
 

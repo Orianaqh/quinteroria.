@@ -13,7 +13,7 @@ import Layout from '../components/Layout'
 function Bitte() {
   return (
     <Layout>
-    <div className='flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem]'>
+    <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem]'>
       
       {/* LEFTE SEITE */}
       <section className='flex flex-col xl:h-[500px] justify-center items-center'>
@@ -21,9 +21,9 @@ function Bitte() {
           aria-label='Bitte'
           className='flex flex-col justify-center items-center gap-1 text-beige mb-3 lg:mb-[1rem]'>
           <h2 className='font-black text-4xl'>Bitte</h2>
-          <p className='opacity-50 '>Wichtiges Wort</p>
+          <p className='opacity-50 '>Der Anfang</p>
           </div>
-        <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>is a modern, user-friendly that connects job seekers with potential employers. The website is built with the latest technologies, including MERN Stack and is designed to be accessible to all. Whether you're looking for a new job or looking to hire, Jobsy makes the process simple and straightforward.</p>
+        <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>Genau! der Anfang..<strong >Bitte</strong> ist ein neues Wortschatzprojekt. Die Deutsche Sprache ist sehr charmant <span className='opacity-7s0'>(obwohl ich vor ein Paar Jahre das Wort/Gefühl 'Hass' in diesem gleichen zusammenhang benutzt/gefühl habe. Der Spruch "Del amor al odio hay un solo paso" (wörtlich übersetzt "Von der Liebe zum Hass ist nur ein Schritt") habe ich viele Male gehört und den Schritt habe ich jetzt gemacht.)</span> und das möchte ich die Welt zeigen. </p>
       </section>
 
       {/* RECHTE SEITE */}
