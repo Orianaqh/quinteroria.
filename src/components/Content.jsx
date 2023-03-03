@@ -2,8 +2,6 @@ import React from 'react'
 import Blumen from '../assets/images/blumenGerade2.png'
 import Typical from "react-typical";
 import { useNavigate } from 'react-router-dom';
-// framer-motion
-// import { motion } from 'framer-motion'
 
 function Content() {
   const navigate = useNavigate()
