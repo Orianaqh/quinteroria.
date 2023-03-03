@@ -8,6 +8,7 @@ import Jobsy from '../pages/Jobsy'
 import NotFound from '../pages/NotFound'
 import Chor from '../pages/Chor';
 import Bitte from '../pages/Bitte';
+import Fotos from '../pages/Fotos';
 
 function SmoothPages() {
   const location = useLocation()
@@ -20,6 +21,7 @@ function SmoothPages() {
         <Route path='/projects/jobsy' element={<Jobsy/>}/>
         <Route path='/projects/chor' element={<Chor/>}/>
         <Route path='/projects/bitte' element={<Bitte/>}/>
+        <Route path='/projects/fotos' element={<Fotos/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </AnimatePresence>

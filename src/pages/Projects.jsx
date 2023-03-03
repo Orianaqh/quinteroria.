@@ -20,7 +20,8 @@ function Projects() {
           <div 
             aria-label='1 fotos'
             className='saturate-0 hover:saturate-100 transition-all 
-            ease-in-out duration-1000'>
+            ease-in-out duration-1000'
+            onClick={() => navigate('fotos')}>
             <img className='lg:w-[500px] object-cover xl:h-[400px] 2xl:h-[534px]' src={Street3} alt='' />
           </div>
 

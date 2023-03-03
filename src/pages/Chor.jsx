@@ -24,7 +24,7 @@ function Chor() {
         </section>
 
         {/* RECHTE SEITE */}
-        <div className='w-[90%] lg:w-[60%] flex flex-col justify-center items-center'>
+        <div className='w-[90%] lg:w-[46.5%] xl:w-[44.5%] flex flex-col justify-center items-center'>
         <section className='flex flex-col lg:flex-row justify-center items-start gap-5 mb-5'>
           <img className='w-[600px]' src={ChorPoster} alt=''/>
           <img className='h-[478.8px] xl:h-[600px] hidden lg:flex' src={ChorElemente} alt='Chor Elemente'/>

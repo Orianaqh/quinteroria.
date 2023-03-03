@@ -8,7 +8,7 @@ function Content() {
 
   return (
     <div className='flex-col flex md:flex justify-start items-center'>
-      <div className='flex flex-col justify-start items-center w-[80%]'>
+      <div className='flex flex-col justify-start items-center w-[80%] md:mt-10'>
         <img className='relative w-[400px] md:w-[400px] lg:w-[600px] drop-shadow-2xl' src={Blumen}/>
 
         {/* TEXT ANIMATION */}
