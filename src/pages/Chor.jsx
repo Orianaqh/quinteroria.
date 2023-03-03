@@ -10,7 +10,7 @@ function Chor() {
   
   return (
     <Layout>
-      <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem]'>
+      <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center pb-5 md:h-[800px] gap-5 lg:gap-[5rem] pt-5'>
         
         {/* LEFTE SEITE */}
         <section className='flex flex-col xl:h-[500px] justify-center items-center lg:items-end'>
@@ -25,7 +25,7 @@ function Chor() {
 
         {/* RECHTE SEITE */}
         <div className='w-[90%] lg:w-[46.5%] xl:w-[44.5%] flex flex-col justify-center items-center'>
-        <section className='flex flex-col lg:flex-row justify-center items-start gap-5 mb-5'>
+        <section className='flex flex-col lg:flex-row justify-center items-start gap-5 mb-2 md:mb-5'>
           <img className='w-[600px]' src={ChorPoster} alt=''/>
           <img className='h-[478.8px] xl:h-[600px] hidden lg:flex' src={ChorElemente} alt='Chor Elemente'/>
         </section>

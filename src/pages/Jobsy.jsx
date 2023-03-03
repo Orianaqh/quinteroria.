@@ -15,7 +15,7 @@ function Jobsy() {
   }
   return (
     <Layout>
-        <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem]'>
+        <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center pb-5 md:h-[800px] gap-5 lg:gap-[5rem] pt-5'>
           
           {/* LEFTE SEITE */}
           <section className='flex flex-col xl:h-[500px] justify-center items-center lg:items-end'>
@@ -34,7 +34,7 @@ function Jobsy() {
           </section>
 
           {/* RECHTE SEITE */}
-          <section className='w-[90%] lg:w-[50%] flex flex-col justify-center items-start gap-5'>
+          <section className='w-[90%] lg:w-[50%] flex flex-col justify-center items-start mb-2 md:mb-5'>
             {/* <img className='' src={JobsyHome} alt=''/> */}
             <ReactPlayer url={video} width='100%' height='100%' controls loop/>
             <Back/>

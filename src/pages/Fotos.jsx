@@ -11,7 +11,7 @@ import Back from '../components/Back'
 function Fotos() {
   return (
     <Layout>
-    <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center h-[800px] gap-5 lg:gap-[5rem] pt-5'>
+    <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center pb-5 md:h-[800px] gap-5 lg:gap-[5rem] pt-5'>
       
       {/* LEFTE SEITE */}
       <section className='flex flex-col xl:h-[500px] justify-center items-center'>
@@ -32,7 +32,7 @@ function Fotos() {
           <img className='w-[50%] rounded-tr-3xl' src={Foto2} alt=''/>
         </div>
 
-        <div className='flex justify-center items-center mb-5'>
+        <div className='flex justify-center items-center'>
           <img className='w-[50%] hue-rotate-180 hue-opacity-20 rounded-bl-3xl' src={Foto3} alt=''/>
           <img className='w-[50%] hue-rotate-180 hue-opacity-20 rounded-br-3xl' src={Foto4} alt=''/>
         </div>
