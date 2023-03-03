@@ -1,4 +1,8 @@
-ist mein Portfolio-Page. 
+##  quinteroria.
+ist meine Portfolio-Page. 
+(und ist auch mein Nachname und eine Abkürzung von meinem Name zusammengeschrieben :honeybee:)
+
+---
 
 * Dependencies:
 - vite/React.js
@@ -8,11 +12,12 @@ ist mein Portfolio-Page.
 - typeit-react
 ...
 
+---
+
 ## So sieht momentan aus (:
-![image](image.png)
+(ist immer noch in Bearbeitung)
 
+![image](https://user-images.githubusercontent.com/92849517/222745501-88aa3455-a525-4250-9a82-d7e33225c690.png)
 
-
-### Project Status:
-- in progress
+[Neugerig? Click mich!]([https://www.google.com](https://quinteroria-lczy7sz2l-orianaqh.vercel.app/))
 
