@@ -19,7 +19,7 @@ function Footer() {
     bottom-3 gap-[20px] font-body'>
 
     {/* COPYRIGHT IMG */}
-      <img className='w-[5rem] pb-3' src={CopyR}/>
+      <img className='w-[5rem]' src={CopyR}/>
 
     {/* LOGOS SOCIAL MEDIA */}
     <div className='flex gap-2 cursor-pointer hover:bg-orange transition-all duration-1000 rounded-lg p-1'>

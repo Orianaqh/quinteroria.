@@ -23,7 +23,7 @@ function Jobsy() {
               <h2 className='text-jobsy text-white font-black tracking-wide text-2xl lg:text-5xl'>Jobsy.</h2>
             </div>
 
-            <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>is a modern, user-friendly <span onClick={JobsyClick} className='font-bold underline cursor-pointer  hover:text-green transition-all 
+            <p className='text-beige leading-[1.2rem] w-[80%] text-[0.80ms] text-center lg:w-[200px] text-opacity-90'>is a modern, user-friendly <span onClick={JobsyClick} className='font-bold underline cursor-pointer text-green hover:text-rosa transition-all 
             ease-in-out duration-900'>job portal</span> that connects job seekers with potential employers. The website is built with the latest technologies, including MERN Stack and is designed to be accessible to all. Whether you're looking for a new job or looking to hire, Jobsy makes the process simple and straightforward.</p>
           </section>
 

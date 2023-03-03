@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Typical from "react-typical";
+import TypeIt from "typeit-react";
+
 
 
 function Back() {
@@ -15,12 +16,9 @@ function Back() {
       xl:text-[15px] font-body text-orange cursor-pointer transition-all 
       ease-in-out duration-[1500ms]">
         
-      <Typical
-        steps={[
-          " < Projekte />",
-
-        ]}
-          />
+      <TypeIt>
+      &lt;Projekte/&gt;
+      </TypeIt>
         </h3>
     </div>
   )

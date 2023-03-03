@@ -9,6 +9,7 @@ module.exports = {
         'orange': '#df5729',
         'blackBlack': '#000000',
         'green': '#84a98c',
+        'rosa': '#e7a5be',
       },
       fontFamily: {
         'body': ['Martian Mono'],

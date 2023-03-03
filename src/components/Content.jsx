@@ -1,7 +1,7 @@
 import React from 'react'
 import Blumen from '../assets/images/blumenGerade2.png'
-import Typical from "react-typical";
 import { useNavigate } from 'react-router-dom';
+import TypeIt from "typeit-react";
 
 function Content() {
   const navigate = useNavigate()
@@ -15,16 +15,8 @@ function Content() {
         <h3 className="w-[250px] h-[50px] mt-[30px] font-semibold text-xs
           md:mt-[50px] md:w-[300px] xl:w-[500px] md:text-[0.90rem] md:text-opacity-60
           xl:text-xl text-beige font-body">
-          <Typical
-            steps={[
-              "Und jetzt, da du schon Blumen hast :) geht's weiter",
-              70000,
-              "",
-              10000
-            ]}
-            loop={Infinity}
-            wrapper="p"
-          />
+          <TypeIt>Und jetzt, da du schon Blumen hast :) geht's weiter</TypeIt>
+            
         </h3>
                   
         {/* EINIGE PROJEKTE */}
