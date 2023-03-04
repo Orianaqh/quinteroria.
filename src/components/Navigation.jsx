@@ -10,7 +10,7 @@ function Navigation() {
       <p
        onClick={()=> navigation('/')}
         aria-label='quinteroria'
-        className='text-beige text-2xl lg:text-4xl py-5 cursor-pointer font-body'> quinter<span className='font-bold'>ori</span>a
+        className='text-beige text-xl md:text-2xl lg:text-4xl py-5 cursor-pointer font-body'> quinter<span className='font-bold'>ori</span>a
         <span className='text-orange-500'>.</span>
       </p>
     </div>

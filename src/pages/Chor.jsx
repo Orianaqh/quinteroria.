@@ -10,7 +10,7 @@ function Chor() {
   
   return (
     <Layout>
-      <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center pb-5 md:h-[800px] gap-5 lg:gap-[5rem] pt-5'>
+      <div className='bgBlack flex flex-col lg:flex-row justify-start lg:justify-center items-center pb-5 h-[800px] gap-5 lg:gap-[5rem] pt-5'>
         
         {/* LEFTE SEITE */}
         <section className='flex flex-col xl:h-[500px] justify-center items-center lg:items-end'>
