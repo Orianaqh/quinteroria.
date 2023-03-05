@@ -1,6 +1,6 @@
 import React from 'react'
-import ChorElemente from '../assets/images/Coro-Chor_elemente.jpg'
-import ChorPoster from '../assets/images/Cantares-Chor.png'
+import ChorElemente from '../assets/images/Coro-Chor_elementeNew.jpg'
+import ChorPoster from '../assets/images/Coro-ChorRosa2.jpg'
 import ChorL from '../assets/images/logoChor.png'
 // framer-motion
 import Layout from '../components/Layout'
