@@ -11,7 +11,6 @@ ist meine Portfolio-Page.
 - framer-motion
 - typeit-react
 - react-player
-...
 
 ---
 
