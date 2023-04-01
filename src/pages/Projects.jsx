@@ -36,7 +36,7 @@ function Projects() {
         </div>
 
         {/* COL 2 */}
-        <div className='w-[40%] lg:w-[35.3%] xl:w-[21.28%] flex flex-col justify-center items-center'>
+        <div className='w-[40%] lg:w-[35.3%] xl:w-[21.85%] flex flex-col justify-center items-center'>
         <div 
             aria-label='4 Jobsy'
             className='bg-black saturate-0 hover:saturate-100 transition-all 
